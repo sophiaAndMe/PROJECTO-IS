@@ -1,0 +1,9 @@
+{
+    "nombreCliente": "Juan Pérez",
+    "telefono": "0987654321",
+    "email": "juan@example.com",
+    "mesaId": 1,
+    "fecha": "2025-12-30",
+    "hora": "20:00:00",
+    "numeroComensales": 4
+}
