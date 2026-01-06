@@ -31,6 +31,7 @@ public class MesaEntity {
 
     private String ubicacion;
 
+    private String estado; // DISPONIBLE, NO DISPONIBLE
 
 
 

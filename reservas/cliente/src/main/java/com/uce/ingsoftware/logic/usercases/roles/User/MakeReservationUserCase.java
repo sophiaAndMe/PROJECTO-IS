@@ -1,5 +1,7 @@
 package com.uce.ingsoftware.logic.usercases.roles.User;
 
+import java.time.LocalTime;
+
 import org.springframework.stereotype.Service;
 
 import com.uce.ingsoftware.entities.ClienteEntity;
@@ -72,6 +74,9 @@ public class MakeReservationUserCase {
                 .comesales(request.numeroComensales())
                 .estadoReserva("PENDIENTE") // Flujo normal [cite: 74]
                 .build();
+
+        // validar que la mesa esté disponible en la fecha y hora solicitada
+        
 
         return reservaRepository.save(reserva).getReservaId();
     }
