@@ -27,11 +27,11 @@ Bash
 
 
 1. Configuración de Base de Datos
-Crea una base de datos en PostgreSQL llamada reservas_db. Luego, configura tus credenciales en el archivo application.properties del módulo que vayas a ejecutar (usualmente cliente):
+Crea una base de datos en PostgreSQL llamada "restaurante_data". Luego, configura tus credenciales en el archivo application.properties del módulo que vayas a ejecutar (usualmente cliente):
 
 Properties
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/reservas_db
+spring.datasource.url=jdbc:postgresql://localhost:5432/restaurante_data
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 
@@ -41,7 +41,7 @@ spring.mail.password=tu_pass_mailtrap
 
 
 2. Compilación e Instalación
-Debes instalar los módulos en el repositorio local de Maven empezando por la raíz:
+Debes instalar los módulos en el repositorio local de Maven empezando por la raíz (reservas):
 
 Bash
 mvn clean install -DskipTests
