@@ -2,13 +2,13 @@ package com.uce.ingsoftware.logic.usercases.roles.User;
 
 import org.springframework.stereotype.Service;
 
-import com.uce.ingsoftware.data.entities.ClienteEntity;
-import com.uce.ingsoftware.data.entities.MesaEntity;
-import com.uce.ingsoftware.data.entities.ReservaEntity;
-import com.uce.ingsoftware.data.repositories.ClienteRepository;
-import com.uce.ingsoftware.data.repositories.MesaRepository;
-import com.uce.ingsoftware.data.repositories.ReservaRepository;
-import com.uce.ingsoftware.dto.ReservaRequestDTO;
+import com.uce.ingsoftware.entities.ClienteEntity;
+import com.uce.ingsoftware.entities.MesaEntity;
+import com.uce.ingsoftware.entities.ReservaEntity;
+import com.uce.ingsoftware.repositories.ClienteRepository;
+import com.uce.ingsoftware.repositories.MesaRepository;
+import com.uce.ingsoftware.repositories.ReservaRepository;
+import com.uce.ingsoftware.DTOs.ReservaRequestDTO;
 
 import jakarta.transaction.Transactional;
 

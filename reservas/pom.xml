@@ -9,6 +9,7 @@
     <artifactId>reservas</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    
     <build>
         <plugins>
             <plugin>
@@ -29,6 +30,7 @@
     <modules>
         <module>administrador</module>
         <module>cliente</module>
+        <module>common</module>
     </modules>
 
 

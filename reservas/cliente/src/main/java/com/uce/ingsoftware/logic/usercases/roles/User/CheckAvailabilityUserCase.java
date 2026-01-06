@@ -6,8 +6,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.uce.ingsoftware.data.entities.MesaEntity;
-import com.uce.ingsoftware.data.repositories.MesaRepository;
+import com.uce.ingsoftware.entities.MesaEntity;
+import com.uce.ingsoftware.repositories.MesaRepository;
 
 @Service
 public class CheckAvailabilityUserCase {

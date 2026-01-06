@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.uce.ingsoftware.data.repositories.ReservaRepository;
+import com.uce.ingsoftware.repositories.ReservaRepository;
 
 
 public class ReservationCleanupService {
