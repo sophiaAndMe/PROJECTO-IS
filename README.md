@@ -47,11 +47,10 @@ Bash
 mvn clean install -DskipTests
 
 
-4. Ejecutar la aplicación
+3. Ejecutar la aplicación
 Para iniciar el sistema completo (usando el módulo cliente como host):
 
-Bash
-
+Bash 
 mvn spring-boot:run -pl cliente
 
 📱 Acceso desde Dispositivos Móviles 
